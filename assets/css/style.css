@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  background-color: rgb(204, 40, 40);
+  color: white;
+}
+
+.reminder{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.reminder h1{
+  margin: 30px;
+  text-transform: uppercase;
+}
+
+.reminder input{
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  outline: 0;
+  background-color: rgba(255, 255, 255, .95);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .3); 
+}
+
+.reminder input:hover{
+  background-color: white;
+}
+
+.reminder ul{
+  list-style: none;
+}
+
+
+.reminder ul li{
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  border-bottom: 1px solid rgba(0, 0, 0,.2);
+  margin-bottom: 10px;
+}
+
+.reminder ul li:last-child{
+ border: 0;
+}
+
+.reminder ul li i{
+  cursor: pointer;
+  opacity: .8;
+}
+
+.reminder ul li i:hover{
+  opacity: 1;
+}
+
+.template{
+  display: none;
+}
